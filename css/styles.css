@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Barlow", Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    position: relative;
+
+}
+
+.logo {
+    width: 200px;
+    padding: 20px;
+}
+
+.x-container {
+    width: 100%;
+    max-width: 115ch;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+  }
+
+nav, 
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+.hamburger {
+    float: right;
+    width: 50px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    font-weight: 800;
+    background-color: #3FA752;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+main {
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-display: capitalize;
+    color: white;
+    background-color: #3FA752;
+    padding: 20px;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white
+}
+
+
+.category-container {
+    display: flex;
+    position: relative;
+    text-align: end;
+}
+
+.category-images {
+    display: flex;
+    max-widt: 100px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.category-text {
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.page-image {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+    padding-top: 20px;
+}
+
+.visit-text {
+    background-color: #3FA752;
+    line-height: 1.5rem;
+}
+
+.hours-text {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.visit-text {
+    color: white;
+    padding: 30px;
+
+}
+
+footer {
+background-color: black;
+color: white;
+}
+
+.footer-info {
+display: grid;
+padding: 30px 20px 40px 20px;
+font-family: 'Barlow' Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 400;
+line-height: 1.7rem;
+font-size: 1rem;
+
+}
+
+.links {
+    text-decoration: underline;
+    color: white;
+}
+
+.icon-wrapper {
+    background-color: #3FA752;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+}
+.some-icons {
+    max-width: 40px;
+    margin: 10px;
+}
+
+@media (min-width: 700px) and (max-width: 1199px){
+    nav {
+     display: block;
+     position: static;
+    }
+    
+    .hamburger {
+        display: none;
+     }
+
+     nav a {
+       display: inline-block; 
+       background-color: black;
+     }
+    .category-wrapper {
+        display: grid;
+        column-gap: 20px; 
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;  
+     } 
+     .footer-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+     }
+
+    .visit-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #3FA752;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    nav {
+        display: block;
+        position: static;
+       }
+       
+       .hamburger {
+           display: none;
+        }
+   
+        nav a {
+          display: inline-block; 
+          background-color: black;
+        }
+        
+        .category-wrapper {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;  
+     } 
+    
+        .footer-wrapper {
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+     }
+}
