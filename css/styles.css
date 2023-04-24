@@ -54,10 +54,6 @@ nav a {
     background-color: #3FA752;
     padding: 10px 20px;
     text-decoration: none;
-    min-height: 120px;
-    
-    
-    
 }
 
 main {
@@ -112,6 +108,7 @@ nav :hover {
     background-color: #3FA752;
     padding: 20px;
 }
+
 .cta-green {
     background-color: #3FA752;
     font-size: 1.2rem;
@@ -122,7 +119,12 @@ nav :hover {
     text-transform: uppercase;
     padding: 10px 40px;
     margin-top: 30px;
+  }
 
+.float-end {
+   align-content: end;
+    padding: 20px;
+    margin-bottom: 20px;
   }
 
 .category-container {
@@ -133,7 +135,6 @@ nav :hover {
 
 .category-images {
     display: flex;
-    max-widt: 100px;
     object-fit: cover;
     margin-top: 20px;
 }
@@ -223,7 +224,7 @@ padding: 20px
     display: flex;
     flex-direction: column;
     background-color: #D7D8D9;
-    height: 350px;
+    height: 300px;
     margin-bottom: 20px;  
 }
 
