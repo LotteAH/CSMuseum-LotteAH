@@ -83,6 +83,12 @@ h3 {
     color: black; 
 }
 
+h4 {
+    font-weight: 800;
+    color: #3FA752;
+    font-size: 1.5rem;
+}
+
 p {
     font-weight: 500;
     font-size: 1rem;
@@ -209,6 +215,52 @@ padding: 20px
     grid-auto-rows: 1fr;
         }
 
+.involved-container {
+display: grid;
+flex-direction: column;
+grid-template-columns: 2fr 1fr;
+grid-auto-rows: 3;
+}
+
+.involved-box {
+background-color: #D7D8D9;
+min-height: 500px;
+padding: 20px;
+margin-top: 20px;
+}
+
+.involved-images-1 {
+    background-image: url("../images/small-luke-ellis-craven-400722.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.involved-images-2 {
+    background-image: url("../images/small-mavis-cw-164128.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.involved-images-3 {
+    background-image: url("../images/small-library-1132573_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.cta-contact {
+    background-color: #3FA752;
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration-line: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 20px;
+
+  }
+
 footer {
 background-color: black;
 color: white;
@@ -273,7 +325,22 @@ font-size: 1rem;
         background-color: #3FA752;
         line-height: 1.5rem;
     }
-    
+
+    .involved-box {
+        min-height: 300px;
+        }
+
+    .involved-images-1 {
+        background-image: url("../images/large-luke-ellis-craven-400722.jpg");
+    }
+
+    .involved-images-2 {
+        background-image: url("../images/large-mavis-cw-164128.jpg");
+    }
+
+    .involved-images-3 {
+        background-image: url("../images/large-library-1132573_1920.jpg");
+    }
 }
 
 @media (min-width: 900px) and (max-width: 1199px){
@@ -284,6 +351,21 @@ font-size: 1rem;
     
         .explore-kids-text {
             padding: 30px 70px;
+        }
+
+        .involved-box {
+            min-height: 300px;
+            }
+    
+        .involved-images-1 {
+            background-image: url("../images/large-luke-ellis-craven-400722.jpg");
+        }
+        .involved-images-2 {
+            background-image: url("../images/large-mavis-cw-164128.jpg");
+        }
+    
+        .involved-images-3 {
+            background-image: url("../images/large-library-1132573_1920.jpg");
         }
 }
 
@@ -324,5 +406,19 @@ font-size: 1rem;
     
         .explore-kids-text {
             padding: 30px 100px;
+        }
+        .involved-box {
+            min-height: 300px;
+            }
+    
+        .involved-images-1 {
+            background-image: url("../images/large-luke-ellis-craven-400722.jpg");
+        }
+        .involved-images-2 {
+            background-image: url("../images/large-mavis-cw-164128.jpg");
+        }
+    
+        .involved-images-3 {
+            background-image: url("../images/large-library-1132573_1920.jpg");
         }
 }
