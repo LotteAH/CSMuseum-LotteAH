@@ -258,8 +258,46 @@ margin-top: 20px;
     text-transform: uppercase;
     padding: 10px 30px;
     margin-top: 20px;
-
   }
+
+  .news-container {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 3;
+    }
+
+.news-box {
+        background-color: #D7D8D9;
+        min-height: 300px;
+        padding: 20px;
+        margin-top: 20px;
+        }
+
+.news-images-1 {
+    background-image: url("../images/small-andrew-ruiz-348421.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.news-images-2 {
+    background-image: url("../images/small-roberto-nickson-396152.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.news-images-3 {
+    background-image: url("../images/small-scientific-2040795_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.back-button {
+    padding-top: 30px;
+}
 
 footer {
 background-color: black;
@@ -341,6 +379,22 @@ font-size: 1rem;
     .involved-images-3 {
         background-image: url("../images/large-library-1132573_1920.jpg");
     }
+    
+    .news-container {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .news-images-1 {
+        background-image: url("../images/large-andrew-ruiz-348421.jpg");
+    }
+
+    .news-images-2 {
+        background-image: url("../images/large-roberto-nickson-396152.jpg");
+    }
+    
+    .news-images-3 {
+        background-image: url("../images/large-scientific-2040795_1280.jpg");
+    }
 }
 
 @media (min-width: 900px) and (max-width: 1199px){
@@ -350,7 +404,7 @@ font-size: 1rem;
         }
     
         .explore-kids-text {
-            padding: 30px 70px;
+            padding: 50px 70px;
         }
 
         .involved-box {
@@ -366,6 +420,21 @@ font-size: 1rem;
     
         .involved-images-3 {
             background-image: url("../images/large-library-1132573_1920.jpg");
+        }
+        
+        .news-container {
+            grid-template-columns: 2fr 1fr;
+        }
+        
+        .news-images-1 {
+            background-image: url("../images/large-andrew-ruiz-348421.jpg");
+        }
+        .news-images-2 {
+            background-image: url("../images/large-roberto-nickson-396152.jpg");
+        }
+        
+        .news-images-3 {
+            background-image: url("../images/large-scientific-2040795_1280.jpg");
         }
 }
 
@@ -405,7 +474,7 @@ font-size: 1rem;
         }
     
         .explore-kids-text {
-            padding: 30px 100px;
+            padding: 70px 100px;
         }
         .involved-box {
             min-height: 300px;
@@ -420,5 +489,20 @@ font-size: 1rem;
     
         .involved-images-3 {
             background-image: url("../images/large-library-1132573_1920.jpg");
+        }
+        
+        .news-container {
+            grid-template-columns: 2fr 1fr;
+        }
+        
+        .news-images-1 {
+            background-image: url("../images/large-andrew-ruiz-348421.jpg");
+        }
+        .news-images-2 {
+            background-image: url("../images/large-roberto-nickson-396152.jpg");
+        }
+        
+        .news-images-3 {
+            background-image: url("../images/large-scientific-2040795_1280.jpg");
         }
 }
