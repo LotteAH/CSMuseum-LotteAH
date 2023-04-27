@@ -502,6 +502,23 @@ footer {
     }
 }
 
+@media (min-width: 1000px) {
+    
+    nav {
+        display: block;
+        position: static;
+        text-align: center;
+       }
+       
+    .hamburger {
+        display: none;
+    }
+   
+    nav a {
+        display: inline-block; 
+        background-color: black;
+       }
+
 
 @media (min-width: 1200px) {
     
