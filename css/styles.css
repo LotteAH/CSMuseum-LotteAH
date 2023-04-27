@@ -325,10 +325,11 @@ grid-auto-rows: 3;
     }
 
 .news-box {
-        background-color: #D7D8D9;
-        min-height: 300px;
-        padding: 20px;
-        margin-top: 20px;
+    display: grid;
+    grid-template-rows: auto auto;background-color: #D7D8D9;
+    height: 530px;
+    padding: 20px;
+    margin-top: 20px;
         }
 
 .news-images-1 {
@@ -449,22 +450,10 @@ font-size: 1rem;
     .involved-images-3 {
         background-image: url("../images/large-library-1132573_1920.jpg");
     }
+    .news-box {
+        height: 330px;
+            }
     
-    .news-container {
-        grid-template-columns: 2fr 1fr;
-    }
-
-    .news-images-1 {
-        background-image: url("../images/large-andrew-ruiz-348421.jpg");
-    }
-
-    .news-images-2 {
-        background-image: url("../images/large-roberto-nickson-396152.jpg");
-    }
-    
-    .news-images-3 {
-        background-image: url("../images/large-scientific-2040795_1280.jpg");
-    }
 }
 
 @media (min-width: 900px) and (max-width: 1199px){
@@ -510,6 +499,9 @@ font-size: 1rem;
         .news-images-3 {
             background-image: url("../images/large-scientific-2040795_1280.jpg");
         }
+        .news-box {
+            height: 480px;
+                }
 }
 
 @media (min-width: 1200px) {
@@ -593,4 +585,7 @@ font-size: 1rem;
         .news-images-3 {
             background-image: url("../images/large-scientific-2040795_1280.jpg");
         }
+        .news-box {
+            height: 400px;
+                }
 }
