@@ -134,7 +134,13 @@ nav :hover {
     padding-left: 20px;
     margin-bottom: 20px;
   }
+
 .float-end-news {
+    display: flex;
+    align-items: flex-end;
+}
+
+.float-end-involved {
     display: flex;
     align-items: flex-end;
 }
@@ -261,10 +267,12 @@ grid-auto-rows: 3;
 }
 
 .involved-box {
-background-color: #D7D8D9;
-min-height: 500px;
-padding: 20px;
-margin-top: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #D7D8D9;
+    height: 580px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .involved-images-1 {
@@ -427,7 +435,7 @@ font-size: 1rem;
         }
 
     .involved-box {
-        min-height: 300px;
+        height: 410px;
         }
 
     .involved-images-1 {
@@ -474,7 +482,7 @@ font-size: 1rem;
         }
 
         .involved-box {
-            min-height: 300px;
+            height: 350px;
             }
     
         .involved-images-1 {
@@ -556,7 +564,7 @@ font-size: 1rem;
         }
 
         .involved-box {
-            min-height: 300px;
+            height: 350px;
         }
     
         .involved-images-1 {
