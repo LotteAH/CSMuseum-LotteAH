@@ -450,21 +450,7 @@ footer {
 
 @media (min-width: 900px) and (max-width: 1199px){
     
-    nav {
-        display: block;
-        position: static;
-        text-align: center;
-       }
-       
-       .hamburger {
-           display: none;
-       }
-   
-        nav a {
-          display: inline-block; 
-          background-color: black;
-       }
-       
+    
     .explore-wrapper {
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
@@ -519,6 +505,21 @@ footer {
 @media (min-width: 1200px) {
     
     nav {
+        display: block;
+        position: static;
+        text-align: center;
+       }
+       
+    .hamburger {
+           display: none;
+       }
+   
+    nav a {
+          display: inline-block; 
+          background-color: black;
+       }
+    
+       nav {
         display: block;
         position: static;
         text-align: center;
