@@ -394,6 +394,7 @@ footer {
     margin: 10px;
 }
 
+
 @media (min-width: 700px) and (max-width: 1199px){
     
     .category-wrapper {
@@ -511,28 +512,13 @@ footer {
        }
        
     .hamburger {
-           display: none;
-       }
-   
-    nav a {
-          display: inline-block; 
-          background-color: black;
-       }
-    
-       nav {
-        display: block;
-        position: static;
-        text-align: center;
-    }
-       
-    .hamburger {
-       display: none;
+        display: none;
     }
    
     nav a {
-      display: inline-block; 
-      background-color: black;
-    }
+        display: inline-block; 
+        background-color: black;
+       }
         
     .category-wrapper {
         display: grid;
