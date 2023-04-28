@@ -342,8 +342,8 @@ padding: 20px
 }
 
   .cta-back {
-    background-color:black;
-    font-size: 1rem;
+    background-color: #3FA752;
+    font-size: 1.2rem;
     font-weight: 800;
     text-decoration-line: none;
     text-align: center;
@@ -546,7 +546,7 @@ address {
         text-align: center;
         min-height: unset;
         background-color: black;
-        font-size: unset;
+        font-size: 1.2rem;
        }
        
     .hamburger {
