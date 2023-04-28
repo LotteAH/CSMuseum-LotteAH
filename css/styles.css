@@ -235,7 +235,7 @@ td:nth-child(2) {
 
 .explore-container {
     display: grid;
-    border: 2px solid black;
+    border: 2px solid #D7D8D9;
     grid-template-columns: 1fr;
     grid-auto-rows: 1fr;
 }
@@ -243,6 +243,7 @@ td:nth-child(2) {
 .explore-images {
     display:flex; 
     margin: auto;
+    max-width: 100%;
 }
 
 .explore-box {
@@ -341,7 +342,7 @@ padding: 20px
     padding: 10px 30px;
 }
 
-  .cta-back {
+.cta-back {
     background-color: #3FA752;
     font-size: 1.2rem;
     font-weight: 800;
@@ -566,6 +567,7 @@ address {
         background-color: black;
        }
 }
+
 
 @media (min-width: 1200px) {
         
